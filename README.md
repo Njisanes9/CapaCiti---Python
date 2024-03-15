@@ -22,7 +22,13 @@ Logical operators include "and", "or" and "not" can be used on boolean values. T
 
 Membership operators arenused to check if a number or string exists in a given list or string, "in" and "not in" are examples of logical operators.
 
-# Operators
+# Lists
+
+Lists are data structures that can store multiple values whether strings, intergers or floats. To access values in a list, indexes are used. There is a method called slicing that helps filter values according to index numbers. If one does not want to display other values in the list, they just use slicing to show only the values from a certain index. Lists can be modified using various, this modification includes removing, inserting and appending values in the list. Lists can be declare using a variable that used square brackets [] and have values in inside of it.
+
+
+
+
 
 
 
