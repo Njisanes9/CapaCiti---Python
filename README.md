@@ -33,6 +33,46 @@ Tuples and sets on not so much different from lists, the only difference is that
 # Dictionaries
 Like, lists,tuples and sets, dictionaries are data structures for storing a series of values. To define a dictionary we use curly brackets, but the difference between defining a set and a dictionary is that a dictionary has a key and a value. A key a value are separated by  the a colon(:), a key will be on the left side and a value will be on the right.
 
+# List Comprehensions
+
+A list comprehension is an easy way to iterate through a list using a for loop, while also returning a copy of th list you iterating over. It also enables you to filter or apply functions to every item in a list.
+
+# Dictionaries and Comprehension
+
+Comprehension in dictionaries is used the same way it is used in lists, the minor difference is that in dictionaries you specify a key and a value.
+
+
+# Control Flow
+
+Control flow is a way of making decisions in programming. This can be done by testing using an if stament, if the if the condition is true then the code inside the if statement can be executed but a different decision is made if the condition is false in the if statement, this can be achieved by using an else statement below the if stament. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
