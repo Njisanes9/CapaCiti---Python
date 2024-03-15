@@ -45,7 +45,7 @@ Comprehension in dictionaries is used the same way it is used in lists, the mino
 # Control Flow
 
 Control flow is a way of making decisions in programming. This can be done by testing using an if stament, if the if the condition is true then the code inside the if statement can be executed but a different decision is made if the condition is false in the if statement, this can be achieved by using an else statement below the if stament. 
-
+There are different types of loops, namely while, do while,for and foreach loop, a for and a while are the most commonly used loops. 
 
 
 
