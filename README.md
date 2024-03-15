@@ -26,6 +26,12 @@ Membership operators arenused to check if a number or string exists in a given l
 
 Lists are data structures that can store multiple values whether strings, intergers or floats. To access values in a list, indexes are used. There is a method called slicing that helps filter values according to index numbers. If one does not want to display other values in the list, they just use slicing to show only the values from a certain index. Lists can be modified using various, this modification includes removing, inserting and appending values in the list. Lists can be declare using a variable that used square brackets [] and have values in inside of it.
 
+# Tuples and Sets
+
+Tuples and sets on not so much different from lists, the only difference is that when defining a tuple, values are defined inside of round brackets and when defining a set values are defined inside of curly brackets.
+
+# Dictionaries
+Like, lists,tuples and sets, dictionaries are data structures for storing a series of values. To define a dictionary we use curly brackets, but the difference between defining a set and a dictionary is that a dictionary has a key and a value. A key a value are separated by  the a colon(:), a key will be on the left side and a value will be on the right.
 
 
 
