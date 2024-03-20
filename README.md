@@ -64,6 +64,23 @@ args only works on positional arguments, should there be a key wordm we will get
 
 These type of arguments when included in a function they print results as a dictionary.
 
+# CLASSES & OBJECTS
+
+A class is an extensible program template for creating objects, providing initial values for state and implementations of behavior.
+An object is an instance of class.
+
+# ERROR HANDLING FUNDAMENTALS
+
+Errors are thing we always experience in programming. So an error handling method it used in order to handle errors.
+To handle errors we use the try, exception statement to catch the errors that may arrise while coding. There are different error types and python can handle them all either with the "except" key word and return the error encountered.
+
+There 3 types of errors, namely 
+* TypeError
+* ZeroDivisionError
+* Exception error.
+
+
+
 
 
 
