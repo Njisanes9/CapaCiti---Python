@@ -48,6 +48,22 @@ Control flow is a way of making decisions in programming. This can be done by te
 There are different types of loops, namely while, do while,for and foreach loop, a for and a while are the most commonly used loops. 
 
 
+# WEEK 2
+
+# FUNCTIONS
+
+* A function is a basic unit of a program.
+* Functions are made of a name and parameters, which are denoted by the def statement.
+* A function can be called along with it's parameters to execute it's results.
+
+# *Args
+
+args only works on positional arguments, should there be a key wordm we will get an error that say "unexpected key word argument".
+
+# **Kwargs (Key Word arguments)
+
+These type of arguments when included in a function they print results as a dictionary.
+
 
 
 
