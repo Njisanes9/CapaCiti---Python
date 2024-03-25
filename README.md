@@ -79,7 +79,9 @@ There 3 types of errors, namely
 * ZeroDivisionError
 * Exception error.
 
-# 
+# WEEK 3
+
+
 
 
 
