@@ -72,12 +72,14 @@ An object is an instance of class.
 # ERROR HANDLING FUNDAMENTALS
 
 Errors are thing we always experience in programming. So an error handling method it used in order to handle errors.
-To handle errors we use the try, exception statement to catch the errors that may arrise while coding. There are different error types and python can handle them all either with the "except" key word and return the error encountered.
+To handle errors we use the try, exception statement to catch the errors that may arrise while coding. There are different error types and python can handle them all either with the "except" key word and return the error encountered. In errror handling, the finally part will always execute regardless of the exception caught on the code.
 
 There 3 types of errors, namely 
 * TypeError
 * ZeroDivisionError
 * Exception error.
+
+# 
 
 
 
