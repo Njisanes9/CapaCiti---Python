@@ -28,7 +28,8 @@ Lists are data structures that can store multiple values whether strings, interg
 
 # Tuples and Sets
 
-Tuples and sets on not so much different from lists, the only difference is that when defining a tuple, values are defined inside of round brackets and when defining a set values are defined inside of curly brackets.
+Tuples and sets on not so much different from lists, the only difference is that when defining a tuple, values are defined inside of round brackets, tuples are immutable which means they cannot be modified in any form. When defining a set values are defined inside of curly braces.
+
 
 # Dictionaries
 Like, lists,tuples and sets, dictionaries are data structures for storing a series of values. To define a dictionary we use curly brackets, but the difference between defining a set and a dictionary is that a dictionary has a key and a value. A key a value are separated by  the a colon(:), a key will be on the left side and a value will be on the right.
