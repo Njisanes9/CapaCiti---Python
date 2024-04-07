@@ -82,6 +82,21 @@ There 3 types of errors, namely
 
 # WEEK 3
 
+# USER STORIES
+These are usualy scenarios from a user's perspective, emphasizing the user's goal and motivation rather than the application itself.They may be driven by a goal to achieve something specific. User stories focus on who, what and why of achieving a goal.
+
+# USE CASES
+A use case is a project planning tool depicting how the user can interact with the system to perform certain tasks and how the system can respond to the user.Use cases focus on the who, what and how of achieving a goal.
+
+# PROJECT REQUIREMENTS
+
+Functional requirements describe what the application shoud or should not do and are written as sentences starting with "the application must" or "the application shall".
+
+Non-functional requirements describe how the application should accomplish its task. They focus qualities like maintainability, reliability and usability.
+
+# ARCHITECTURE
+
+This focuses on how the project will be structured based on the project requirements gathered along with user stories. Classes are created and the databases to store user information.
 
 
 
