@@ -232,23 +232,51 @@ Dimensional modeling is an approach to arranging data to facilitate analysis. Di
 
 # COMMON DATA STRUCTURES
 
+To facilitate analysis, data needs to be stored in a consistent, organized manner. When considering structured data, several concepts and standards inform how organize data. On the other hand, unstructured data has wider variety of storage approaches.
+
+# Structured Data
+
+Tabular data is structured data, with values stored in a consistent, defined manner, organized into columns and rows. Data is consistent when all entries in a column contain the same type of value. 
+
+# Unstructured Data
+
+It is a qualitative data, describing the characteristics of an event or object. Images, phrases, audio or video recordings, and descriptive text are all examples of unstructured data. Machine data is a common source of unstructured data. Machine data has various sources, including Internet of Things devices, smartphones, tablets, personal computers and servers. Machines create digital footprints of their activity as they operate.
+
+Object storage facilitates the storage of unstructured data. The key-value concept underpins the design of object storage. They key is a unique identifier, and the value is the unstructured data itself.
+
+# Semi-Structured Data
+
+It is the data that has structure and that is not tabular. Email is an example of semi-structured data. Every email message has structural components, including recepient, sender, subject, date, and time. The body of an email is unstructured text, while attachments could be anything type of file.
 
 
+# COMMON FILE FORMATS
+
+Common file formats facilitate data exchange and tool interoperability. Several file formats have emerged as standards and are widely adopted.
+
+# Text Files
+
+They are most commonly used data file formats, they consist of plain text and are limited in scope to alphanumeric data. They ability to ve ioebed regardless of platform or operating system without needing a proprietary piece of software is they reason they are widely used. They are commonly referred to as flat files. When machines generate data, the output is commonly stored in a text file.
+
+# Fixed-Width Files
+
+# Javascript Object Notation (JSON)
+
+It is an open standard file format, designed to add structure to a text file without incurring significant overhead. One of the design principles is that JSON is easily readable by people and easily parsed by modern programming languages. Languages such as Python, R and Go have libraries containing functions that facilitate reading and writing JSON files.
+
+# Extensible Markup Language (XML)
+
+It is a markup language that facilitates structuring data in a text file. It is conceptually similar to JSON, but it incurs more overhead because it makes extensive use of tags. Tags help readability, but add significant amount of overhead, tags describe a data element and enclose each value for each data element.
+
+# Hypertext Markup Languag (HTML)
+
+It is a markup language for documents designed to be displayed in a web browser. HTML pages serve as the foundation for how people interact with the World Wide Web. Similar to XML, HTML is a tag-based language.
 
 
+# Key Points
 
-
-
-
-
-
-
-
-
-
-
-
-
+- When dealing with data, you need to think through the data values you are working with because doing so influences your choice of data type.
+- When using structured data you may be working with dates,numbers, texts, currency or alphanumeric data.
+- When you have to incorporate metadata or represent a complex data structure, you need capabilities beyond what flat-file provides. Formating the data as JSON or XML is a viable alternative.
 
 
 
