@@ -280,15 +280,37 @@ It is a markup language for documents designed to be displayed in a web browser.
 
 
 
+# CHAPTER 3
+# EXPLORING DATABASE
+
+When an organization needs to data, there are various database options to choose from. While many database products exist, they belong in one of two categories:
+- Relational
+- Nonrelational
+
+# Relational Database
+
+Relational databases are pieces of software that let you make an perational system out of an Entity Relationship Diagram (ERD). Relational entities correspond to database tables, and entity attributes correspond to table columns.
+
+# Nonrelational Databases
+
+Relational database does not have a predefined structure based on tabular data. The result is a highly flexible approach to storing data. However, the data types available in relational databases are absent. As a result, you need to know more about the data itself to interact with it. Data validation happens in code, as opposed to being done in the database.
+
+Nonrelational database examples include key-value, document, column family, and graph.
+
+# Key-Value
+
+Data is stored as a collection of keys and their corresponding values. A key must be globally unique across the entire database. The use of keys differs from a relational database, where a given key identifies an individual row in a specific table. The are no structural limits on the values of a key. A key can be a sequence of numbers, alphanumeric strings, or some other combination of values.The data that corresponds with the key can be any structured or unstructured data type.
+
+# Document
+
+A document is similar to key-value database, with additional restrictions. In a key-value database, the value can contain anything. With a document database, the value is restricted to a specific structured format. With a known, structured format, document databases have additional flexibility beyond what is possible with key-value.
+
+# Column-Family
+
+Column-family databases use an index to identify data in groups of related columns. The key in a relational database may be any type of ID but in a Column-family database the key becomes an index.
 
 
-
-
-
-
-
-
-
+# Graph
 
 
 
