@@ -312,67 +312,162 @@ Column-family databases use an index to identify data in groups of related colum
 
 # Graph
 
+Graph databases specialize in eploring relationships pieces of data. Relational models focus on mapping the relationships between entities. Graph models map relationships between actual pieces of data.
 
 
+# DATABASE USECASES
+# Online Transactional Processing (OLTP)
+
+OLTP systems handle the transactions we encounter every day. This may include booking a flight reservation, ordering something online, or executing a stock trade. While the number of transactions a system handles on a given day can be very high, individual transactions process small amount of data. OLTP systems balance the ability to write and read data efficiently.
+
+# Normalization
+
+Normalization is a process for structuring a database in a way that minimizes duplication of data. First normal form(1NF) is when every row in a table is unique and every column contains a unique value. Second normal form(2NF) starts where 1NF leaves off. In addition to each row being unique, 2NF applies an additional rule stating that all nonprimary key values must depend on the entire primary key. 
+
+Third normal form(3NF) builds upon 2NF by adding a rule stating all columns must depend on only the primary key.
+
+# Online Analytical Processing
+
+OLAP systems focus on the ability of organizations to analyze data. While OLAP and OLTP databases can both use relational database technology, their structures are fundamentally diffent. OLTP databases need to balance transactional read and write performance, resulting in a highly normalized design. Typically, OLTP databases are in 3NF.
+
+On the other hand, databases that power OLAP systems have a denormalized design. Instead of having data distributed across multiple tables, denormalization results in wider tables than those found in a OLTP database. It is more efficient for analytical queries to read large amounts of data for a single table instead of incurring the cost if joining multiple tables together.
 
 
+# Schema Concepts
+
+The design of database schema depends on the purpose it serves. Transactional systems require highly normalized databases, whereas a denormalized design is more appropriate for analytical systems. A data warehouse is a database that aggregates data from many transactional systems for analytical purposes. Transactional data may come from systems that power the human resources, sales, makerting, and product divisions. A data warehouse facilitates analytics across the entire company.
+
+A data mart is subset of a data warehouse. Data warehouses serve the entire organization, whereas data mart focus on the need of a particular department within the organization.
+
+A data lake stores raw data in its native format instead of conforming to a relational database structure. Using a data lake is more complex than a data warehouse or data mart, as it requires additional knowledge about the raw data to make it analytically useful. Relational databases enforce structure that encapsulates business rules and business logic, both of which are missing in a data lake.
 
 
+# Star Schema
 
+`The star schema is designed to facilitate analytical processing, gets its name from what the schema looks like when looking at its entinty relationship diagram.
 
+# Snowflake Schema
 
+Snowflake and star schemas are conceptually similar in that they both have a central fact table surrounded by dimensions. Where the approachs differ differ is in the handling of dimensions. With a star, the dimension tables connect directly to the fact table. With a snowflake schema is less denormalized than the schema.
 
+A snowflake schema query is more complex than the equivalent query in a star schema. Part of the trade-off is that a snowflake schema requires less storage space than a star schema. Data warehouses often use snowflake schemas, since many different systems supply data to the warehouse. Data marts are comparatively less complicated, because they represent a single data subject area. As such, data marts frequently use a star-schema approach.
 
+# Dimensionality
 
+Dimensionality refers to the number of attributes a table has. The greater the number of attributes, the higher the dimensionality. A dimension table provides additional context around data in fact tables.
 
+# DATA ACQUISITION CONCEPTS
 
+# Integration
 
+The data can be transferred efficiently in various methods. One approach is know as extract, transform, and load(ETL). This method consist of three phases:
 
+- Extract: In this phase, you extract data from the source system and place it in a staging area. The goal of the extract phase is to move data from a relational database into a flat file as quickly as possible.
 
+- Transform: This phase transforms the data. The goal is to reformat the data from its transactional structure to the data warehouse's analytical design.
+- Load: The purpose of the load phase is to ensure data gets into the analytical system as quickly possible.
 
+Extract, Load and Transform is a variant of ETL. With ETL, data is extracted from a source database and loaded into a data warehouse. Once the extract and load phases are complete, the transformation phase gets underway. One key difference between ETL and ELT is the technical component performing the transformation. With ETL, the data transformation takes plce external to a relational database, using a programming languages like Python. ETL uses SQL and the power of a relational database to reformat the data.
 
+ELT has an advantage in the speed with which data moves from the operational to the analytical database. Suppose you need to get massive amount of transactional data into an analylitical environment as quickly as possible. In that case, ELT is a good choice, especially at scale when the data warehouse has a lot of capacity. Whether you choose ETL or ELT is a function of organization need, staff capabilities, and technical strategy.
 
+# ETL Vendors
 
+Whether one chooses ETL or ELT for loading their data warehouse, they do not have to write transformations by hand. Many products support ETL or ELT. It is vital to evaluate the available free and paid options to determine the one that best fits the needs and system architecture goals.
 
+# Data Collection Methods
 
+Augmenting data from transactional systems with external data is an excellent way improve the analytical capabilities of an organization. To improve the accuracy of an analysis, one wants to include data about the weather, tourism, and their competitors. This data can come from various sources, including federal and state open data portals, other public data sources, and private purveyors of data.
 
+- Application Programming Interface(API)
+- Web Services
+- Web Scraping
+- Human-in-the-Loop
+- Surveys
+- Survey Tools
+- Observation
+- Sampling
 
+# WORKING WITH DATA
 
+# Data Manipulation
+When manipulating data, one of four possible actions occur:
 
+- Creae new data
+- Read existing data
+- Update existing data
+- Delete existing data
 
+SQL SELECT statement
 
+SELECT <what>
+FROM <source>
 
+The SELECT clause identifies the from the table(s) that are retrieved. If you want to list the name and animal type from Table 3.1.
 
+SELECT Animal_Name, Breed_Name
 
+The FROM clause in a query identifies the source of data, which is frequently a database table. Both the SELECT and FROM clauses are required for a SQL statement to return data, as follows:
 
+SELECT Animal_Name, Breed_Name
+FROM Animal
 
+# SQL Considerations
 
+The keywords in SQL are case-insensitive. However, the case-sensitivity of column names and values depend on the database configuration.
 
+Consider the following query:
 
+Select Animal_Name, Breed_Name from Animal
 
+The previous query returns the same results as this query:
 
+SELECT Animal_Name, Breed_Name FROM Animal
 
+SQL can also span multiple lines. For example, rewriting the previous query as follows will return identical results:
 
+SELECT Animal_Name, Breed_Name
 
+FROM  Animal
 
+How a query appears is a function of organizational conventions. Factors that influence convention include database configuration, query efficiency, and how easy it is for people to read and understand the query.
 
+# Filtering
 
+Examining a large table in its entirety provides insight into the overall population. To answer questions that an organization's leadership has typically requires a subset of overall data. Filtering is a way to reduce the data down to only the rows that you need.
 
+To filter data, you add a WHERE clause to a query. Note that the column you are filtering on does not have to appear in the SELECT clause.
 
+# Sorting
 
+When querying a database, you frequently specify the order in which you want your results to return. The ORDER BY clause is the component of a SQL query that makes sorting possible. Similar to how a WHERE clause performs, you do not have to specify the columns you are using to sort the data in the SELECT clause. The ASC keyword at the end of the ORDER BY clause sorts in ascending order whereas using DESC with ODER BY sorts in descending order. If you are sorting on multiple columns, you can use both ascending and descending as appropriate. Both the ASC and DES keywords work across various data types, including date, alphanumeric, and numeric.
 
+# Logical Functions
 
+They can make data substitutions when retrieving data. 
 
+The IFF function expects the following three parameters:
+- Boolean Expression: The expression must return either TRUE of FALSE.
+- True Value: If the boolean expression returns TRUE, the IFF function will return this value.
+- False Value: If the boolean expression returns FALSE, the IFF function will return this value.
 
+The IFF function has the following syntax:
+IFF(boolean_expression, true_value, false_value)
+Example SELECT Animal_Name, IFF(Sex = 'M','Male', 'Female')
 
+IFF is just one example of a logical function. When using functions, you need to balance their convenience with the knowledge that you are replacing data from the database with the function's coded balues. The ability to do this type of substitution is a real asset when dividing data into categories.
 
+# Aggregate Functions
 
+Summarized data helps answer questions that executives have, and aggregate functions are an easy way to summarize data. Aggregate functions summarize a query's data and return a single value.
+Aggregate functions that are common across platforms:
 
-
-
-
-
-
+- COUNT: Returns the total number of rows of a query.
+- MIN: Returns the minimum value from the results of a query. NB - This works on both alphanumeric and numeric data types.
+- MAX: Returns the maximum value from the results of a query. NB - This works on both alphanumeric and numeric data types.
+- AVG: Returns the mathematic average of the results of a query.
+- SUM: Returns the sum of the results of a query.
+- STDDEV: Returns the sample standard deviation of the results of a query.
 
 
 
