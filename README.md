@@ -470,21 +470,21 @@ Aggregate functions that are common across platforms:
 - STDDEV: Returns the sample standard deviation of the results of a query.
 
 
+# CHAPTER 4: DATA QUALITY
 
+Exploring some common reasons for cleaning and profiling datasets.
 
+# Duplicate Data
 
+Duplicate data occurs when data representing the same transaction is accidentally duplicated within a system.
 
+# Redundant Data
 
+Redundant data occurs when the same data elements exist in multiple places within a system. Frequently, data redundancy is a function of integrating multiple systems. For example, multiple source systems that perform different business functions and use shared data elements create the conditions for data redundancy. When a record changes in one system, there is no guarantee that its new value changes in another system. Since there us no certainty of data synchronization, a data element can have conflicting values across systems. When integrating multiple data sources, dealing with redundant data is a persistent challenge.
 
+# Missing Values
 
-
-
-
-
-
-
-
-
+Missing values is another issue impacting data quality. Missing values occur when you expect an attribute to contain data but nothing is there. They are also known as null values. A null value is the absence of a value. A null value is not a space, blank or other character. Some situations may make sense when allowing null values. 
 
 
 
