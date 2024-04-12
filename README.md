@@ -486,9 +486,9 @@ Redundant data occurs when the same data elements exist in multiple places withi
 
 Missing values is another issue impacting data quality. Missing values occur when you expect an attribute to contain data but nothing is there. They are also known as null values. A null value is the absence of a value. A null value is not a space, blank or other character. Some situations may make sense when allowing null values. 
 
+# Invalid Data
 
-
-
+Invalid data are outside the valid range for a given attribute. An invalid value violates a business rule instead of having an incorrect data type. As much, you haveto understand the context of system to determine whether or not a value is invalid. 
 
 
 
