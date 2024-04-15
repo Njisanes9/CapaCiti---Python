@@ -474,6 +474,8 @@ Aggregate functions that are common across platforms:
 
 Exploring some common reasons for cleaning and profiling datasets.
 
+# DATA QUALITY CHALLENGES
+
 # Duplicate Data
 
 Duplicate data occurs when data representing the same transaction is accidentally duplicated within a system.
@@ -489,6 +491,301 @@ Missing values is another issue impacting data quality. Missing values occur whe
 # Invalid Data
 
 Invalid data are outside the valid range for a given attribute. An invalid value violates a business rule instead of having an incorrect data type. As much, you haveto understand the context of system to determine whether or not a value is invalid. 
+
+# Nonparametric Data
+
+Nonparametric data is a data collected from categorical variables. Sometimes the categories indicate differantiation, and sometimes they have a rank order associated with them.
+
+# Data Outliers
+
+A data outlier is a value that differs signficantly from other observations in a dataset. With outliers, you need to understand why they exist and whether they are valid in the context of your analysis.
+
+# Specification Mismatch
+
+A specification describes the target value for a component. A specification mismatch occurs when an individual component's characteristics are beyond the range of acceptable values. In manufacturing, a specification's tolerance is crucial to maintaining quality. When data is invalid, it has values that fall outiside a given range. On the other hand, a specification mismatch occurs when does not conform to its destination data type. For example, you might be loading data from a file into a database. If the destination column is numeric and you have text data, you'll end up with a specification mismatch. To solve this mismatch, you must validate that the inbound data consistently maps to its target data type.
+
+# Data Type Validation
+
+Data type validation ensures that values in a dataset have a consistent data type. Programming languages, including python, SQL and R, all have data type validations. Use these functions to validate the data type for each column in a data file before attempting a database load. It's in your best interest to detect and remediate data type issues as early as possible to ensure data is ready for analysis.
+
+
+# DATA MANIPULATION TECHNIQUES
+
+# Recording Data
+
+Recording data is a technique you can use to map original values for a variable into new values to facilitate analysis. Recording groups data into multiple categories, creating a categorical variable. A categorical variable is either nominal or ordinal. Nominal variables are variable with two or more categories  where there is no natural order of categories. Ordinal variables are categories with an inherent rank.
+
+# Derived Variables
+
+A derived variable is new variable resulting from a calculation on an existing variable. A derived variable does not have to be categorical.
+
+# Data Merge
+
+A data merge uses a common variable to combine multiple databasets with diffent structures into a single dataset. Merging data improves data quality by adding new varibales to your existing data. Additional variables make for a richer dataset, which positevly impacts the quality of your analysis. ETL processes commonly append data while tranforming data for use in analytical environments.
+
+# Data Blending
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
