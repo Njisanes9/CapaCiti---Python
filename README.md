@@ -1,4 +1,4 @@
-# Python-Week-1
+ # Python-Week-1
 Introduction
 
 Python is a programming language widely used for developing web applications, mobile applications, artificial intelligence and games. Python is known for being easiest to use compared to other programming languages. Python code can be writen on IDEs(Intergrated Development Environment) like Pycharm, Visual Studio Code and Sublime. It can be installed on a machine using the Python.org website.
@@ -279,11 +279,10 @@ It is a markup language for documents designed to be displayed in a web browser.
 - When you have to incorporate metadata or represent a complex data structure, you need capabilities beyond what flat-file provides. Formating the data as JSON or XML is a viable alternative.
 
 
-
 # CHAPTER 3
 # EXPLORING DATABASE
 
-When an organization needs to data, there are various database options to choose from. While many database products exist, they belong in one of two categories:
+When an organization needs to store data, there are various database options to choose from. While many database products exist, they belong in one of two categories:
 - Relational
 - Nonrelational
 
@@ -360,7 +359,7 @@ Dimensionality refers to the number of attributes a table has. The greater the n
 
 # Integration
 
-The data can be transferred efficiently in various methods. One approach is know as extract, transform, and load(ETL). This method consist of three phases:
+The data can be transferred efficiently in various methods. One approach is known as extract, transform, and load(ETL). This method consist of three phases:
 
 - Extract: In this phase, you extract data from the source system and place it in a staging area. The goal of the extract phase is to move data from a relational database into a flat file as quickly as possible.
 
@@ -525,35 +524,40 @@ A data merge uses a common variable to combine multiple databasets with diffent 
 
 # Data Blending
 
+Data blending combines multiple sources of data into a single dataset at the reporting layer. Data blending differs from ETL in that it allows an analyst to combine datasets in an ad hoc manner without saving the blended dataset in a relational database.
 
 
+# Concatenation
 
+It is the merging of separate variables into a single variable. Concatenation is a highly effective technique when dealing with a source system that stores components of a single variable in multiple columns. The need for concatenation frequently occurs when dealing with date and time data. It is also useful when generating address information. 
 
+# Data Append
 
+A data append combines multiple data sources with the same structure, resulting in a new dataset containing all the rows from the original datasets. When appending data, you save the result as a new dataset for ongoing analysis.
 
+# Imputation
 
+Imputation is a technique for dealing with missing values by replacing them with substitutes. When merging multiple data sources, you may end up with a dataset with many nulls in a given column. If you are collecting sensor data, it is possible to have missing values due to collection or transmission issues.
 
+Approaches an analyst can use for imputing values:
 
+- Remove missing data - Remove rows with missing values without impacting the quality of the overall analysis.
+- Replace with Zero - Can replace missing values with a zero.
+- Replace with overall Average - Instead of using a zero, you can compute average weight of all rows that have data and then replace missing data with a zero is contextual.
+- Replace with Most Frequent(Mode) - Alternately, you can take the most frequently occuring value, call the mode, and use that as the constant.
+- Closes value average - With this approach you can use the values from the rows beffore and after missing values.
 
+# Reduction
 
+When dealing with big data, it is frequently unfeasible and inefficient to manipulate the entire dataset during analysis. Reduction is the process of shrinking an extensive dataset without negatively impacting its analytical value. There are a variety of reduction techniques from which you can choose. Selecting a method depends on the type of data you have and what you are trying to analyze. Dimensionality reduction and numerosity reduction are two techniques for data reduction.
 
+# Dimensionality Reduction
 
+One reduction technique is dimensionality reduction, which removes attributes from a dataset. Removing attributes reduces the dataset's overall size.
 
+# Numerosity Reduction
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Nemerosity reduction reduces the overall volume of data.
 
 
 
