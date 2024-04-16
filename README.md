@@ -557,25 +557,46 @@ One reduction technique is dimensionality reduction, which removes attributes fr
 
 # Numerosity Reduction
 
-Nemerosity reduction reduces the overall volume of data.
+Nemerosity reduction reduces the overall volume of data. One way to reduce the volume of quantitative data is by creating a histogram. You can create a histogram in Python, R, and many visualization-specific tools. A histogram is a diagram made up of rectangles, or bars, that show how frequently a specific value occurs. When creating a histogram, you can conFigure the width of a rectangle to represent a range of values. Another approach to reduce the data is through sampling. Sampling is a technique that selects a subset of individual records from the initial dataset.
+
+Sampling techniques:
+
+- Aggregation - it is the summarization of raw data for analysis. Agrigating data provides answers that help make decisions.
+ - Transposing data - it is when you want to turn rows into columns and columns into rows to facilitate analysis. When transposing, each value from a column becomes a new column.
+ - Normalization - In this context, normalizing data converts data from diffent scales to the same scale. If you want to compare columns whose measurements use different units, you want to normalize the data.
+ - Min-Max Normalization -
+ - Parsing/String Manipulation -  Raw data can contain columns with composite or distributed structural issues. A composite issue is when a raw data source has multiple, distinct values combined with a single character column.
+
+# MANAGING DATA QUALITY
+
+# Circustance to Check for Quality
+
+- Data Acquisition
+- Data Transformation and Conversion
+- Data Manipulation
+- Final Product Preparation
+
+# Automated Validation
+
+Many data sources feed analytics environments. While some of these data sources are other computer systems, others depend directly on people. Whenever people interact with systems, it's possible to introduce data-related errors. Whether source is machine or human-generated, one way to prevent data entry mistakes from adversely impact data quality is to automate data validation checks.
+
+# Data Quality Dimensions
+
+Six dimensions to take into account when assessing data quality are accuracy, completeness, consistency, timelines, uniqueness and validity.
+
+# Data Quality Rules and Metrics
+
+With an understanding of data quality dimensions, one need to consider how to measure each of them  in the quest to improve overall quality.
+Data conformity, which encompasses elements of accuracy, consistency, uniqueness and validity. Conformity and nonconformity of data can be assessed when consolodating data from multiple sources in an analytics environment. Noncomformity is when source data does not match the destination data type size and format. Noncomformity causes an ETL challenge. To validate conformity issues is to confirm how many rows pass successfully to the target and how many fail.
 
 
+# Methods to Validate Quality
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Reasonable expectations - Determine whether or not the data in analytics environment meets reasonable expectations.
+- Data profiling - Data profiling uses statistical measures to check for data discrepancies, including values that are missing, occuring either frequently or infrequently or that should be eliminated.
+- Data audits - These look at your data and help you understand whether or not you have the data you need to operate your business.
+- Sampling - This is a statistical technique in which you use a subset of your data to inform conclusions about your overall data.
+- Cross-Validation - This is a statistical technique evaluating how well predictive models perform. 
 
 
 
