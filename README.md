@@ -561,7 +561,7 @@ Nemerosity reduction reduces the overall volume of data. One way to reduce the v
 
 Sampling techniques:
 
-- Aggregation - it is the summarization of raw data for analysis. Agrigating data provides answers that help make decisions.
+- Aggregation - it is the summarization of raw data for analysis. Aggregating data provides answers that help make decisions.
  - Transposing data - it is when you want to turn rows into columns and columns into rows to facilitate analysis. When transposing, each value from a column becomes a new column.
  - Normalization - In this context, normalizing data converts data from diffent scales to the same scale. If you want to compare columns whose measurements use different units, you want to normalize the data.
  - Min-Max Normalization -
@@ -599,25 +599,44 @@ Data conformity, which encompasses elements of accuracy, consistency, uniqueness
 - Cross-Validation - This is a statistical technique evaluating how well predictive models perform. 
 
 
+# CHAPTER 5
 
+# Fundamentals Of Statistics
 
+- A census is when you obtain data for every element of your population. Collecting a sample is a cost-effective and time-effective alternate to gathering census data.
+- In statistics a variable can be defined as a serial number that uniquely identifies a wiper switch.
+- Univariate analysis is when you explore the characteristics of a single variable, independent of the rest of the dataset.
+- An observation is an individual record in a dataset corresponding to a tabular data row.
 
+In statistics, one needs to be considerate of the sample size.
+A statistic is a numeric representation of a property of a sample
+A population is a total amount of things.
+A sample refers to a small part of the population that we examine to get the information from.
 
+`Types of statistics:
 
+- Inferential
+- Descriptive
 
+# DESCRIPTIVE STATISTICS
 
+It is a part of statistics that summarizes and describe data. Descriptive statistics can be used a tool to help understand the characteristic of a dataset. When working with a dataset for the first time, you may perform univariate analysis to answer questions about a variable's value. Descriptive measures to develop summary information about all of a variables observations.
 
+# Measures of Frequency
 
+Measure of frequency helps understand how often something happens. When encountering data for the first time, it is vital to determine the size of the data you will be working with to help guide the analysis.
 
+- Count is a way of understanding the amount of data being worked with to count the number of observations.
+- Percentage is a frequency of measure that identifies the proportion of a given value for a variable with respect to the total number of rows in a  dataset. To calculate a percentage, you need the total number of observations and the total number of observations for a specific value of variable.
+- Frequency describes how often a specific value for a variable occurs in a dataset. Frequency is typically explored when conducting univariate analysis.
 
+# Measures of Central Tendency
 
+Various measures of central tendency can be explored to help establish an overall perspective on a given dataset. Measures of central tendency can be used to identify the central, or most typical value in a dataset.
 
-
-
-
-
-
-
+- Mean
+- Median
+- Mode
 
 
 
