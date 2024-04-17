@@ -688,19 +688,25 @@ This hypothesis presumes that there is no effect on the test you are conducting.
 
 Alternative hypothesis presumes that the test being conducted has effect.
 
-#
+# Hypothesis Testing with the Z-test
 
+This is appropriate when the sample at hand is over 30 and a known population standard deviation, and normal reduction is used.
 
+# Hypothesis Testing with the T-test
 
+T-test is similar to z-test but it uses the t-distribution instead of the standard normal distribution.
 
+# Hypothesis Testing with the Chi-Square
 
+Z-tests and t-tests work well on numeric data. The chi-square test is available when one needs to assess the association of two categorical variables. In this cas, the null hypothesis asserts that there is no association between the variables, and the alternative hypothesis states that there is an association between them.
 
+# Simple Linear Regression
 
+This analysis technique that explores the relationship between an independent variable and a dependent variable. Linear can be used to identify whether the independed is a good predictor of a dependent variable. Linear regression analysis can be performed on Microsoft Excel, Python and R. Plotting the results of a regression, the independent variable is on the x-axis and the dependent variable is on the y-axis. 
 
+A crucial aspect of linear regression is the correalation between how far the observations are from the regression line. Correlation is a measurement of how well the regression line fits the observations. When evaluating the correlation between variables, one thing to keep in is that it does not imply causation.
 
-
-
-
+# ANALYSIS TECHNIQUES
 
 
 
