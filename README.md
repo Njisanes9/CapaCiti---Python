@@ -707,7 +707,7 @@ This analysis technique that explores the relationship between an independent va
 A crucial aspect of linear regression is the correalation between how far the observations are from the regression line. Correlation is a measurement of how well the regression line fits the observations. When evaluating the correlation between variables, one thing to keep in is that it does not imply causation.
 
 # ANALYSIS TECHNIQUES
-
+bv
 
 
 
