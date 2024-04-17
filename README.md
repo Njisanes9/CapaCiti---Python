@@ -638,30 +638,57 @@ Various measures of central tendency can be explored to help establish an overal
 - Median
 - Mode
 
+# Measures of Dispersion
+
+Measures of dispersion can be used to create context around data spread.
+
+Common measures of dispersion
+
+- Range - a range of a variable is the difference between its maximum and minimum values. Understanding the range helps put the data you are looking at into context and can help determine what to do with outlier values. It also helps identify invalid values in your data.
+- Distribution - It is a function that illustrates probable values for a variable and the frequency with which they occur.
+- Normal Distribution - This is symmmetrically dispersed around its mean, which gives it a distinctive bell-like shape. Normal distribution is also know as a "bell curve" due to its shape.
+- Skewed Distribution - It has asymmetrical shape, with a single peak and a long tail on the side. It has either right(positive(greater than median)) or left(negative(less than median)) skew.
+- Bimodal Distribution - This has two distinct modes, and a multimodal distribution has multiple distinct modes.
+- Variance - This a measure of dispersion that takes values for each observation in a dataset and calculates how far they are from the mean value. This measure indicates how spread out the data is in squared units.
+Variance can be use a useful measure when considering financial investments.
+- Standard Deviation - Measures dispersion in terms of far values of a variable are from its mean. It is the avarage deviation between individual values and the mean.
+
+# Measures of Position
 
 
+# INFERENTIAL STATISTICS
+
+Inferential statistics is a branch of statistics that uses sample data to draw conclusions about the overall population.
+
+# Confidence Intervals
+
+Whenever a sample is taken from a population, the statistics generated are unique to the sample. A population as whole can be described by collecting a range of scores to make the inferences about the population as whole. A confidence interval describes the possibility that a sample  statistic contains the true population parameter in a range of values around the mean.
+
+- Confidence Interval Considerations - Specifying the confidence level in addition to the sample mean, population standard deviation and sample size are thing that can be be considered when calculating a confidence. The confidence level is a percentage that describes the range around the mean.
+- When calculating confidence intervals, one needs to have a the standard deviation of the entire population.
+
+# HYPOTHESIS TESTING
+
+A hypothesis is an approach of to proving or disproving ideas. Hypothesis test consists of two statements, only one of which can be true.
+
+Components of hypothesis test: 
+ - Null Hypothesis
+ - Alternative Hypothesis
+
+To determine the statistical significane of whether to accept or reject the null hypothesis, a test statistic against a critical value needs to be compared. A test statistic is a single numeric value describing how closely a sample data matches the distribution of data under the null hypothesis. The way the null and alternative hypotheses are are defined determines whether a one-tailed or two-tailed test is being conducted.
+
+- One-tailed test is when the alternative hypothesis is trying to prove a difference in a specific direction.
+
+# Null Hypothesis
+
+This hypothesis presumes that there is no effect on the test you are conducting. When hypothesis testing, the default assumption is that the null hypothesis is valid and that there is evidence to reject it.
 
 
+# Alternative Hypothesis
 
+Alternative hypothesis presumes that the test being conducted has effect.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#
 
 
 
