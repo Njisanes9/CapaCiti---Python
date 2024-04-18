@@ -707,52 +707,79 @@ This analysis technique that explores the relationship between an independent va
 A crucial aspect of linear regression is the correalation between how far the observations are from the regression line. Correlation is a measurement of how well the regression line fits the observations. When evaluating the correlation between variables, one thing to keep in is that it does not imply causation.
 
 # ANALYSIS TECHNIQUES
-bv
+
+# Determine Type of Analysis
+
+Understanding business objectives and desired outcomes is crucial when embarking on a new analytics challenge, as it informs the type of analysis being conducted. To understand objectives one needs to ensure that they have clarity on business questions at hand. A goal of answering questions is to develop an insight that informs a business decision.
+
+While reviewing requirements, develop a list of clarifying questions. The list can help define the scope of the analysis. The list clarification can identify gaps between achieavable given data source and time constraints.
+
+# Types of Analysis
+
+- Trend analysis - seeks to identify patterns by comparing data over time.
+- Performance analysis - examines defined goals and measures performance against them and can inform the development of future projections.
+- Link analysis - is a technique that uses network theory to explore the relationship between data points.
+
+# Exploratory Data Analysis(EDA)
+
+EDA uses descriptive statistics to summarize the main characteristic of a dataset, identify outliers, and give you context for the future analysis.
+
+Approaches to conducting EDA typically encompass the following:
+
+- Check Data Structure - Check data is in the correct format for analysis.
+- Check Data Representation - Validate data types and ensure that variables contain the data you expect.
+- Check if Data is Missing -
+- Identify Outliers - 
+- Summarize Statistics
+- Check Assumptions
 
 
+# CHAPTER 6: DATA ANALYTICS TOOLS
+
+# Spreadsheets
+
+- Productivity software packages that allow users to create documents that organize any type of data rows and columns.
+- They lack any of the constraints of a relational database.
+- Spreadsheeds' power comes from the fact that virtually anybody can use one.
+
+# Programming Languages
+
+# R
+
+- Tidyverse is a package for R
+- Tidyverse simplifies the use of the language and makes it accessible to anyone willing to invest a few hours learning some basic syntax.
+
+# Python
+
+- Pandas is the data analysis library, it provides set of tools for structuring and analyzing data.
+
+# Structured Query Language (SQL)
+
+SQL is divided into two major sublanguages:
+
+- Data Definition Language - Mainly used by developers and administrators. It used to define the structure of the database itself. Does not work inside a database but sets grounf rules for database to function. DDL commands: CREATE, ALTER, DROP
+- Data Manipulation Language - Is the subset of SQL commands used to work with data inside a database. Does not change the database structure, but they add, remove and change the data inside a database. DML commands: SELECT, UPDATE, INSERT, DELETE
+
+# STATISTICS PACKAGES
+
+- IBM SPSS
+- Stata
+- Minitab
+
+# MACHINE LEARNING
+
+# IBM SPSS Modeler
+
+It  is popular tool for building graphical machine learning models. Instead of requiring that users write code, it provides intuitive interface where analysts can select tastks that they would like software to carry out and then connect them in a flowchart-style interface.
+
+# RapidMiner
+
+Is a graphical machine learning tool that works in a manner similar to IBM SPSS Modeler. It offers access to hundreds of different algorithms that may be placed visually designed machine-learning workflow.
 
 
+# DATA ANALYTICS SUITES
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#
 
 
 
