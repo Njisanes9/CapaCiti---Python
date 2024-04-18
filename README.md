@@ -835,18 +835,32 @@ Qlik offers the following major product:
 It is an enterprise reporting tool from SAP that is designed to provide a comprehensive reporting and analytics environment for organizations. One of the strengths of this suite is the ability to integrate **BusinessObjects** reports with other applications, allowing organizations to integrate analytics into other portions of their workflow.
 
 
+# CHAPTER 7: Data Visualization with Reports and Dashboards
 
+# Understanding Business Requirements
 
+Reports and Dashboards both summarize data for the end users, but they distribute those summaries in different ways.
 
+- A **Report** is a static electronic or physical document that reflects information at a given point in time.
+- A **Dashboard** is an interactive visualization that encourages people to explore data dynamically.
 
+Both reports and dashboards are ideal tools for visualizing data content.
 
+- A **Pull approach** is when you publish a report to known location, like a web page, and let people know the frequency and timing of when report updates.
+- A **Push approach** is when the report automatically sent to the appropriate people as it becomes avaible.
+- A **Blende approach** is when you inform people that the report is available while maintaining central control of the report itself.
 
+# Understanding Report Design Elements
 
+There 5 design principles known as "five Cs" of creating visualizations, will help ensure that your reports and dashboards communicate clearly and efficiently.
 
+- **Control** has to do with how you focus the attention of your audience.
+- **Correctness** makes sure that your information is accurate and that there are no spelling mistakes.
+- **Clarity** refers to selecting the right viasualization tool for communicating your message, making sure the visualization is easy to interprete and visually crisp and using font sizes that easy to read.
+- **Consistency** refers to using the same design and documentation elements throughtout your report or dashboard to give your visualizarion a cohesive and complete feel.
+- **Concentration** refers to using visuals to focus your audience's attention on the most relevant information without overwhelming them with details.
 
-
-
-
+# Understanding Dashboard Development Methods
 
 
 
