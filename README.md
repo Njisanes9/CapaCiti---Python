@@ -860,7 +860,8 @@ There 5 design principles known as "five Cs" of creating visualizations, will he
 - **Consistency** refers to using the same design and documentation elements throughtout your report or dashboard to give your visualizarion a cohesive and complete feel.
 - **Concentration** refers to using visuals to focus your audience's attention on the most relevant information without overwhelming them with details.
 
-# DATA GOVERNANCE
+# CHAPTER 1 : DATA GOVERNANCE
+
 
 Goverance is the manner in which an entity chooses to oversee the control and direction of an area of interest. It is made up of how decisions are made, regulated and enforced.
 The formality and structure that governance takes depend on the context and intent.
@@ -910,20 +911,45 @@ Most important qualities of a data governance framework:
 - **Leadership** and Strategy - Ensuring senior leadership support and aligning data governance efforts with the vision, mission, and strategy of the organization.
 - **Roles and Responsibilities** - Identifying and empowering the right team members with responsibilities for the data governance program and others with accountability for data.
 - **Policies, Processes and Standards** - Developing and enforcing the policies, processes abd stabdards for governaning and managing data.
-- **Metrics - Measuring** - Measuring and reporting on the performance of the data governance program and the broader outcomes of the data management.
-- **Tools**
+- **Metrics** - Measuring and reporting on the performance of the data governance program and the broader outcomes of the data management.
+- **Tools** - Deploying and utilizing a range of software-based tools to support data governance and mananagement.
+- **Communication and Collaboration** - Adopting specific methods for high-performance communications and collaboration support of data governance and management.
+
+
+# Leader and Strategy
+
+A data governance program must be aligned with the strategy of the organization. Data plays a role in many aspect of organizational strategy, including risk management, innovation and operational efficiencies, so you must ensure there's a clear alignment between aspects and the goals of data governance.
+
+# Roles and Responsibilities
+
+Every data governance framework includes the identification and assignment of roles and responsibilities, which range from the information technology(IT) team to data stewards.
+
+# Policies, Processes, and Standards
+
+Policies, processes and standards are the driving force in every data governance program, guiding and supporting uniformity across the organization. Each of these must be designed, developed and deployed. Depending on the size and complexity of the organization, this can take significant effort.
+
+# Metrics
+
+The data governance program must have a machanism to measure whether it is delivering the expected results. Capturing metrics and delivering them to a variety of stakeholders is important for maintaining support, which includes funding.
+
+# Tools
+
+There are tools in support of data governance and management. These include tools for master data management, data catalogs, search, security, integration, analytics and compliance. Recently, many data science-related tools have made leaps in terms of incorporating ease-of-use and automation. What used to be complex has been democratized and empowered more team members to better manage and derive value from data.
+
+# Communications and Collaboration
+
+With the introduction of data governance and the ongoing, sometimes evolving, requirements, high-quality communications are key. This takes many forms, including in-person meetings, emails, newsletters and workshops. Change management, in particular, requires careful attention to ensure that impacted impacted team members understand how the changes brought about the data governance program affect them and their obligations.
+
+# Preparing for Data Governance
+# What is data culture?
+
+Data culture refers to an organizational environment where data is not only valued but is also readily accessible and used consistently to drive decision-making processes. It's a culture where data literacy is widespread, and data-driven insights are the norm rather than the exception. This concept encapsulates behaviors, attitudes, and practices that foster an environment where data is readily available, trusted, and used consistently to drive actions. In a data culture, data isn't confined to a specific department or a group of data scientists; instead, it permeates the entire organization, influencing how decisions are made at all levels.
+
+# Maturing Data Culture
 
 
 
-
-
-
-
-
-
-
-
-
+# CHAPTER 2 : Exploring a World Overflowing with Data
 
 
 
