@@ -860,7 +860,7 @@ There 5 design principles known as "five Cs" of creating visualizations, will he
 - **Consistency** refers to using the same design and documentation elements throughtout your report or dashboard to give your visualizarion a cohesive and complete feel.
 - **Concentration** refers to using visuals to focus your audience's attention on the most relevant information without overwhelming them with details.
 
-# Understanding Dashboard Development Methods
+# DATA GOVERNANCE
 
 
 
