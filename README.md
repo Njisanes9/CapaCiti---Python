@@ -862,22 +862,56 @@ There 5 design principles known as "five Cs" of creating visualizations, will he
 
 # DATA GOVERNANCE
 
+Goverance is the manner in which an entity chooses to oversee the control and direction of an area of interest. It is made up of how decisions are made, regulated and enforced.
+The formality and structure that governance takes depend on the context and intent.
+Governance is the system that formalizes control, processes and accountabilities so that specific results such as meeting goals or sustatainig standards can be attained.
+
+# Data Governance VS Data Management
+
+Data Governance is focused on roles and responsibilities, policies, definitions, metric and the life cycle of data. Data Management us the technical implementation of data governance.
+
+# Data Governance VS Information Governance
+
+Data governance focuses on data, independent of its meaning. Information governance is entirely concerned with the meaning if the data and relationship in terms of outcomes and value to the organization, customers and stakeholders.
+
+# Value of Data Governance
+
+Advantages achieved by good data governace.
+
+- Improved data quality
+- Expanded data value
+- Increade data compliance
+- Improved data-driven decision-making
+- Greater sharing used of data across the enterprice and externally
+- Increased data availability and accessibility
+- Improved data search
+- Reduced risks from ata-related issues
+- Reduced data management costs
+- Established rules for handling
+
+ # Creating a Data Governance Program
+
+ Steps for creating a data governance program:
+
+- Defining the vision, goals and benefits
+- Analyzing the current state of data governance and management
+- Developing a proposal based on the first two steps.
+- Achieving leadership approval.
+- Designing and developing the program
+- Implementing the program
+- Monitoring and measuring performance
+- Maintaining the program 
 
 
+# Developing a Data Governance Framework
 
+Most important qualities of a data governance framework:
 
-
-
-
-
-
-
-
-
-
-
-
-
+- **Leadership** and Strategy - Ensuring senior leadership support and aligning data governance efforts with the vision, mission, and strategy of the organization.
+- **Roles and Responsibilities** - Identifying and empowering the right team members with responsibilities for the data governance program and others with accountability for data.
+- **Policies, Processes and Standards** - Developing and enforcing the policies, processes abd stabdards for governaning and managing data.
+- **Metrics - Measuring** - Measuring and reporting on the performance of the data governance program and the broader outcomes of the data management.
+- **Tools**
 
 
 
