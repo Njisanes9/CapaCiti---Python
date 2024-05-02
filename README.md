@@ -951,6 +951,513 @@ Data culture refers to an organizational environment where data is not only valu
 
 # CHAPTER 2 : Exploring a World Overflowing with Data
 
+Data refers to the collections of digitally stored units, in other words, stuff that is kept on a computing device. These units represent something meaningful when processed for a human or a computer. Single units of data are traditionally referred to as datum and multiple units as data.
+
+Prior to processing, data doesn't need to make sense individually or even in combination with other data.
+
+# Data Architecture
+
+Data architecture considers and typically supports:
+
+- Ensuing data is available to those who need it and are approved to use it.
+- Reducing the complexity of accessing and utilizing data.
+- Creating and enforcing data protections to support organizational policies and obligations.
+- Adopting and agreeing to data standards.
+- Optimizing the flow and efficient use of data to eliminate bottlenecks and dupplication.
+
+Data architecture is a direct reflection of data governance. An established and functioning data architecture immedately signals that an organization values data, manages it as a critical business asset, and has controls in place to ensure that it aligns with business needs.
+
+# The Lifecycle of Data
+
+- **Creation** -  This is the stage at which data comes into being. It may be manual or automated and get created internally or externally. Data is created all the time by a vast number of activities that include system inputs and outputs.
+- **Storage** - Once data is created and assuming you want it available for later us, it must be stored. It most likely will be contained and managed in a database. The database needs a home, too as a local drive, server, or cloyd service.
+- **Usage** - Data may need to be processed to be useful. That could include cleansing it of errors, transforming it to another formart and securing access rights.
+- **Archival** - In this stage, you identify data that is not currently being used and move it to a long-term storage system out of your production environment. If it's needed at some point in future, it can be retrieved and utilized.
+- **Destruction** - Data destruction involves making data inaccessible and unreadable. It can include the physical destruction of a device such as a har drive.
+
+
+# Big Data
+
+Big data is structured and unstructured data that is so massive and complex in a scale, that it's difficult and often impossible to process via traditional data management techniques.
+
+Big data can be deifned and characterized by five Vs:
+
+- **Volume** -  The sheer scale of data being produced is unprecedented and requires new tools, skills, and processes.
+- **Variety** - There are already a lot of legacy file formats, such a CSV and MP3, and with new innovations, new formats are emerging all the time. This requires different methods of handling, from analysis to security.
+- **Velocity** - With so many collection points, digital interfaces and ubiquitous connectivity connectivity, daat is being created and moved at increasing speed.
+- **Variability** - The fact that the creation and flow of data are unpredictable.
+- **Veracity** - The quality, including accuracy and truthfulness, of large volume of disparate sets of data, can differ considerably, causing challenges to data management.
+
+# CHAPTER 3: DRIVING VALUE THROUGH DATA
+
+# Identifying the Roles of Data
+
+# Operations
+
+Business operations are concerned with a diverse set of activities to run the day-to-day needs and drive the mission of an organization. Each business has different needs, and operational functions reflect these specific requirements. The performance of operations is often easily quantified by data. Operations use data to make decisions, enable systems to run and deliver data to internal and external entities.
+
+# Strategy
+
+At the organizational level, this is about creating a plan that supports objectives and goals. It's essentially about understanding the challenges to delivering on the organization's purpose and then agreeing on the proposed solutions to those challenges. Strategy leads to implementation and requires the support of operations to realize its goals. In this way, strategy and operations are two sides of the same coin. Done right, a data-driven strategy delivered with operational excellence can be a winning ticket.
+
+# Decision-Making
+
+It's generally accepted in the business that the highest form of value derived from data is the ability to make better-informed decisions. The volume and quality of data available today have no precedent in history. Within organizations, access to abundant data and information has resulted in quicker, timeous, and better-quality business decisions.
+
+# Measuring
+
+Organizations are in a continuous state of measurement, whether it’s overt or tacit. Every observed unit of data contributes to building a picture of the business. The often-used adage, what gets measured gets managed, is generally applicable. Some things are hard to measure and not everything gets measured.
+
+Data measurements can be quantitative or qualitative. Quantitative data is most often described in numerical terms, whereas qualitative data is descriptive and expressed in terms of language.
+
+# Mornitoring
+
+It is an ongoing process of collecting and evaluating the performance of, say, a project, proces, system or another item of interested. Often then results collected are compared against some existing values or desired targets. The data produced through monitoring feeds report, real-time systems, and software-based dashboards.
+
+Monitoring is another process that converts data into insight and as such, exists as a mechanism to guide decisions. The role of data in measurement and monitoring often go hand-in-hand.
+
+# Insight Management
+
+Business insight is sometimes referred to as information that can make a difference. Insight management begins with gathering and analyzing data from different sources. In order to determine  what data to process, those responsible for insight management must deeply understand the organization's informations needs. They  must be knowledgeable about what data has value.
+
+# Reporting
+
+The use of reports is the manifestation of data and information management in any organization. Creating, deliverign, receiving and acting on reports are fundamental functions of any organization. They can also be referred as the backbone of every business. The content of a report, which can be summarized or detailed, contains data and information in a structured manner.
+
+# Other Role of Data
+
+**Artificial Interlligence(AI)** -  Data is considered the fuel of AI. It requires a high volume of good data. With huge quantities of quality data, the outcome of AI improve. AI learns patterns, identifies relationships and determines pobabilities through data. AI is being used to improve the quality and use of data in organizations.
+**Problem-Solving** - Acknowledging the close association with decision-making, it's worth calling out problem-solving  as a distinctive use of data.
+**Data reuse** - Data is often reused for entirely different reasons.The collected, used and stored data can be retrieve and used by a different team at another time, assuming they have permission, including access and legal right. 
+
+# Improving Outcome with Data
+
+Understanding how data can be leveraged to acquire its maximum value begins with recognizing that data is an organizational asset. Meaning that it's something that brings economic value to the organization. When data is considered an asset - in fact, specifically a high-value asset - it often gets treated differently.
+
+
+# Approaching Data as an Asset
+
+An asset can be tangible or intangible. Tangible assets are physical things such as inventory, machines, and property. An intangible asset is a non-physical thing like software, copyrights, a brand and goodwill. Data is an intangible asset.
+
+After it is processed from its raw form, data has the potential to create enormous economic value of all manner of stakeholders.
+
+Examples of the economic value of data:
+
+- Improves operatins.
+- Increases existing revenue.
+- Produces new forms of revenue.
+- Build relationships with customers and stakeholders.
+- Improves the quality of products and services.
+- Contributes to competitive advantage.
+- Enables innovation.
+- Reduces risk.
+
+# Data Analytics
+
+In order to make sense of data, you have to apply specific tools and techniques. The process of examining data in order to produce answers or find conclusion is called data analytics.
+
+
+Basics steps of data analysis: 
+
+- **Data Minig** - Identifying and extracting relevant data from data sources.
+- **Data Cleansing** - Sizable effort including removing errors and duplicate data in preparation for analysis.
+- **Statistical analysis** - Using statistical methods and artificial intelligence to interpret results and develop insights.
+- **Data presentation** - Communicating results using a variety of techniques including visualization and data storytelling.
+
+Types of data analytics:
+
+- **Descriptive** - Existing data sets of historical data accessed, and analysis is performed to determine what the data tells stakeholders about the performance of a key performance indicator or other business objectives. it is insight on past performance.
+- **Diagnostic** -This analysis tries to glean from the data the answer to why something happened. Taking descriptive analysis and looks at the cause.
+- **Predictive** - The analysis uses techniques to determine what may occur in future. It applies tools to historical data and trends to predict the likelihood of certain outcomes.
+- **Prescriptive** - This focuses on what actions should be taken. In combination with predictive analytics, prescriptive techniques provide estimates of the probabilities of a variety of future outcomes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
