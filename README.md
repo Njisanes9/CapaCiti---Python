@@ -1181,21 +1181,72 @@ Uses of contemporary data analytics tools and techniques include:
 - Insights on customer behavior.
 
 
+# Data Monetization
+
+The value of a given data set may be highly subjective and may differ considerably between the perspectives of team members. It's possible for an organization to not fully appreciate the value of specific data sets.
+
+- **Data valuation** is a proces to place price on a data set.
+- **Data monetization** is when data provides an economic benefit to an organizaton.
+- **Data valuation** generally recommended in large enterprises, is a requirement for advanced data monetization such as selling or licensing data.
+
+Ways to determine data valuation:
+
+- **Cost value method** - Value is calculated by determining how much it costs to produce, store, and replace a lot of data.
+- **Market value approach** - Value is calculated by researching how comparable data is beinh priced in the open market.
+- **Economic value approach** -Value is calculated by measuring the impact a data set has on the business's bottom line.
+- **With-and-without method** - Value is calculated by quantifying the impact on the cash flow if a data set needts to be replaced.
+
+# Data-Driven Decision Making
+
+Data-driven decision-making(DDDM) is the process of using data to drive business decisions.
 
 
+Steps to data-driven decision-making:
+
+- **Define the objectives** - Involves the objectives relate to the effort and their alignment with organizational goals.
+- **Identify the data** - In addition to using a data catalogue, enterprise search, or similar, this step requires engaging with impacted stakeholders.
+- **Prepare the data**
+- **Analyze the data** 
+- **Determine the findings** 
+- **Take action**
+
+# Developing a Data Strategy for improved Results
+
+Reason why organizations don't take a proactive approach to managing data:
+
+- "If it ain't broke", why fix it?
+- It's too expensive and time-consuming to focus on data
+- It's far too complicated.
+- Data management and governance - what is that?
 
 
+# Creating a Data Strategy
+
+- **Data maturity** - This can be defined as the degree to which the organization already uses and optimizes data and has experience and skills, as well as the quality if the existing data.
+- **Industry and size** - Data prioritization can be thought of through two frameworks: defense and offense. Defense deals with fundamental areas such as data security and quality. Offense is using data for insight management and marketing-facing initiatives.
+
+A data strategy should account for these areas of data requirements:
+
+- **Identify** - To find and make data usable, it must be clearly defined and described.
+- **Store** - Design and develop the capabilities for supporting the place and process for hosting data and how it will be share, accessed and processed.
+- **Provision** - Determine processes to share and reuse data and define the guidelines for access.
+- **Process** - Raw data must be transformed to become valuable.
+- **Govern** - Institute processes to manage and communicate data policies for data use within the organization.
+
+Data requirements should consider these data strategy components:
+
+- **Alignment with the business** - A data strategy is a subset of the overall business strategy. Meaning the data stratetgy must support and advance the larger goals of the organization.
+- **Identifying roles and responsibilities** - A strategy requires people to take specific actions. Without action, a strategy is a worthless document. In data strategy, you'll want to document the different roles that team members will play.
+- **Data architecture** - This area relates to the processes, systems and applications that support working with data.
+- **Data management** - This area is the broad umbrella of activities that manage the full lifecycle of data in a organization. It recognizes that data is a strategic asset and must have the attendant processes, procedures, policies, skills and tools to ensure it is treated in such a manner.
 
 
+Component of data strategy
 
-
-
-
-
-
-
-
-
+- **Business Allignment** - Ensuring people, processes, and tools are in support of driving business goals.
+- **Roles and Responsibilities** - Determining who does what relative to data in the business.
+- **Data architecture** - Software, hardware, and tools that enables the execution of the data strategy.
+- **Data management** - Management of the implementation of data use and enforcement of data governance.
 
 
 
