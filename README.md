@@ -1071,46 +1071,114 @@ Types of data analytics:
 - **Predictive** - The analysis uses techniques to determine what may occur in future. It applies tools to historical data and trends to predict the likelihood of certain outcomes.
 - **Prescriptive** - This focuses on what actions should be taken. In combination with predictive analytics, prescriptive techniques provide estimates of the probabilities of a variety of future outcomes.
 
+# Data Management
+
+Data management is different from data governance. Data governance concerns itself with defining  the roles, policies, controls and processes for increasing the quality and value of organizational data.
+Data management is the implementation of data governance. Without data management, data governance is just wishful thinking. To get value from data, there must be execution.
+
+Good data management can result in more success in the marketplace. When data is handled and treated as a valuable enterprise asset: insights are richer and timelier, operations run smoother, and team members have what they need to make more informaed decisions.
+
+Data management process involves the collection, storage, organization, maintenance and analytics if an organizations's data.
+
+# Governning Data
+
+Governing data means that some level of control exists to support a related policy.To fully realize the potential of data in the organization means that data must be governed.
+
+The success of governing data can be reduced to 3 essential factors:
+
+- **People** - In governing data, people are the subject matter experts, they are responsible for quality, and they oversee and manage all related processes and responsibilities.
+- **Policies** - A data policy contains a set of adopted rules by an organization that apply to the handling of data in specific conditions and  for particular desired outcomes. These policies apply in areas such as quality, privacy, retention and security.
+- **Metrics** - In developing policies in support of data governace, one has to consider how each is measured. Metrics must be in support of both technical and business needs.
 
 
+# CHAPTER 4: Transforming Through Data
 
+# Examing the Broader Value of Data
 
+Data democratization is the ability for team members to access data that they need for their work.
+A data silo is a data repository controlled by an entity in a organization but not frequently shared or known by other parts of the business.Data silos hinder business effeciencies because they reduce collaboration and increase data inconsistencies. In simple terms data silos are a source of risk, including security and regulatory issues.
 
+Data governance helps eliminate unnecessary siloes and make data discoverable and available whenever and wherever it adds value. Data catalogs are an essential way that data governance can help solve these limitations.
 
+Knowing what data is available is essential for these reasons:
 
+- Better informed descion-making.
+- Ensuring compliance and regularoty requirements.
+- Lower costs by avoiding duplicate system and data efforts.
+- Improved data analytics and reporting.
+- Higher performing systems.
+- More efficient operations.
+- Reducing data inconsitencies across the enterprise.
 
+# Data Catalogs
 
+The creation of an enterprise data catalog is another method of data dicoverability that is becoming popular.
 
+The 3 essential benefits of data catalogs:
 
+- **Finding data** - Helping users identify and locate data that may be useful.
+- **Understanding data** - Answers a wide variety of data questions such as its purpose and who use it.
+- **Making data more useful** - Creates visibility, describes value, and provides access to information.
 
+What makes a data catalog particularly valuable is that it contains data about data(metadata).
 
+Data catalog can contain 3 types of metadata:
 
+- **Technical metadata** - Data about the design of a data such as its tables, columns, file names, and other documentation related to the source system.
+- **Business metadata** - Organizational data such a business description, how it is used, it relevancy, and assessment of data quality, and users and their interactions.
+- **Operational metadata** - Data such as when data was last accessed, who accessed it, and when was it last backed up.
 
+With a data catalog, an organization can:
 
+- Know what data it has(and by extension, know what data is missing).
+- Reduce data duplication.
+- Increase operational efficiencies and innovation.
+- Understand data quality.
+- Manage compliance.
+- Enjoy cost savings from improved operations.
 
+# From Data to Insights
 
+Acquiring and applying insight from data means defining:
 
+- **Context** - Understanding the environment and objectives of the outcome.
+- **Need** - Determining how insight will help accomplish the objective.
+- **Vision** - Having ideas about how insight will help and what might look like in practice.
+- **Outcome** - Specify how insights will be adopted and success will be measured.
 
+These dimensions can be used to answer questions such as:
 
+- What data is acquired?
+- Does the data exist?
+- Is it current?
+- Is it easily available?
+- What format is the data in?
+- What kind of data analysis is required?
+- How will the data be presented?
 
+# Data Analytics
 
+Analytics are need to realize the benefits of data and discover insights.
+Data analytics involves both specialized skills and software to explore sets and extract insights that may be useful to an organization.
 
+**Data analysis** is concerned with identifying a data set, examining it, and reporting on any findings. Data analysis a subset of data analytics and it focuses on what data from the past tells us.
+**Data analyisis** is a complete science that involves collecting, cleaning, organizing, storing, administering, and analyzing data.
 
+The source of data analytics is one or the combination of the following:
 
+- **First-party data** - Data that an organization collects.
+- **Second-party data** - Data that is obtained from another organization.
+- **Third-party data** - Aggregated data obtained from a provider.
 
+Uses of contemporary data analytics tools and techniques include:
 
-
-
-
-
-
-
-
-
-
-
-
-
+- Vastly improved decision-making.
+- Focused marketing campains.
+- Understanding the competitive landscape.
+- Designing more innovative products.
+- Better customer service.
+- Improved operations.
+- Insights on customer behavior.
 
 
 
